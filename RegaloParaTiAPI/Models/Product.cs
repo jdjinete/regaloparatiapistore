@@ -9,6 +9,6 @@ namespace RegaloParaTiAPI.Models
         public string Title { get; set; }
         public string Description { get; set; }
         public int Price { get; set; }
-         public List<Product> Products { get; } = new List<Product>();
+        //  public List<Product> Products { get; } = new List<Product>();
     }
 }

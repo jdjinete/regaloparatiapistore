@@ -13,9 +13,9 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "3000:80"     
+      - "5000:80"     
     environment:
-      DB_CONNECTION_STRING: "host=postgres_image;port=5432;database=blogdb;username=joedayz;password=joedayz"
+      DB_CONNECTION_STRING: "host=postgres_image;port=5432;database=rptdb;username=rptadmin;password=rptadmin"
     networks:
       - regaloparatiapi-dev  
   
